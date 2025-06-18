@@ -1,14 +1,14 @@
     Detect the Price Discrepancy:
 
-        The bot constantly monitors ARB/ETH prices on both Uniswap and SushiSwap.
+        The bot constantly monitors ARB/ETH , USDC, USDT prices on both Uniswap and camelot
 
-        It sees that ARB is cheaper on Uniswap and more expensive on SushiSwap.
+        It sees that ARB is cheaper on Uniswap and more expensive on camelot.
 
     Execute Arbitrage Trade:
 
         It buys ARB on Uniswap at 0.00042 ETH
 
-        It sells ARB on SushiSwap at 0.00044 ETH
+        It sells ARB on camelot at 0.00044 ETH
 
         For every ARB token traded, it profits 0.00002 ETH
 
@@ -34,7 +34,7 @@ A spatial arbitrage bot on ARB/ETH:
 
     Buys ARB on the cheaper DEX (e.g., Uniswap)
 
-    Sells ARB on the costlier DEX (e.g., SushiSwap)
+    Sells ARB on the costlier DEX (e.g., camelot)
 
     Profits from ETH difference (Δ price × amount)
 
