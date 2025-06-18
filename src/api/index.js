@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://127.0.0.1:8000"; // Change if your FastAPI runs elsewhere
+const API_BASE = "http://127.0.0.1:5000"; // Change if your FastAPI runs elsewhere
 
 export const connectWallet = (walletId, privateKey) => 
   axios.post(`${API_BASE}/wallet/connect`, { walletId, privateKey });
